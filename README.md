@@ -13,6 +13,7 @@ A modern, responsive real estate frontend website built using **HTML**, **CSS**,
 |---------|----------------|
 | ![Screenshot 2025-06-17 121653](https://github.com/user-attachments/assets/a1c9f942-d108-44f1-a169-f7bc49c524f5) | 
 ![Screenshot 2025-06-17 121836](https://github.com/user-attachments/assets/aa042749-d541-4a0b-9475-a58fc89ae6ef) |
+![Screenshot 2025-06-17 122355](https://github.com/user-attachments/assets/87a37527-e087-4f79-89b8-7d243477a411)
 
 ---
 
