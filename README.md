@@ -31,8 +31,6 @@ A modern, responsive real estate frontend website built using **HTML**, **CSS**,
 - **HTML5**
 - **CSS3**
 - **JavaScript (ES6)**
+- **React.js**
 
 ---
-
-## 📂 Project Structure
-
