@@ -1,0 +1,377 @@
+
+
+.footer {
+  background-color: #f8f9fa;
+  padding: 40px 0;
+}
+
+.footer a {
+  color: #6c757d;
+  text-decoration: none;
+}
+
+.footer a:hover {
+  text-decoration: underline;
+}
+
+.footer .subscribe input[type="email"] {
+  border: 1px solid #ced4da;
+  padding: 10px;
+  width: 100%;
+  margin-bottom: 10px;
+}
+
+.footer .subscribe button {
+  background-color: black;
+  color: white;
+  border: none;
+  padding: 10px 20px;
+  width: 100%;
+}
+
+.footer .social-icons a {
+  color: black;
+  font-size: 20px;
+  margin-right: 15px;
+  background-color: white;
+
+}
+
+.footer .terms a {
+  color: #6c757d;
+  margin-right: 20px;
+}
+
+.social-icons a:hover {
+  color: #03346E;
+
+}
+
+.product-grid {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 16px;
+  margin-top: 5%;
+
+
+}
+
+.product-item {
+  text-align: center;
+  border: 1px solid #ccc;
+  padding: 16px;
+  border-radius: 8px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  transition: transform 0.2s;
+}
+
+.product-item:hover {
+  transform: scale(1.05);
+}
+
+.product-image {
+  height: 420px;
+  width: 300px;
+  object-fit: cover;
+}
+
+.product-brand
+/* Manproduct.css */
+
+.container {
+  padding: 20px;
+
+}
+
+.manproduct-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+  gap: 15px;
+  margin-top: 8%;
+}
+
+.manproduct-item {
+  border: 1px solid #ddd;
+  border-radius: 8px;
+  overflow: hidden;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+.manproduct-item:hover {
+  transform: scale(1.05);
+  box-shadow: 0 6px 12px rgba(0, 0, 0, 0.2);
+}
+
+.manproduct-item img {
+  width: 100%;
+  height: auto;
+  display: block;
+}
+
+.manproduct-details {
+  padding: 10px;
+}
+
+.manproduct-details h6 {
+  margin: 5px 0;
+  font-size: 16px;
+  color: #333;
+}
+
+.product-price,
+.product-name {
+  margin: 8px 0;
+}
+
+
+.container {
+  padding: 20px;
+  background-color: #f9f9f9;
+}
+
+.row {
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.col-md-12 {
+  width: 100%;
+}
+
+/* Manproduct.css */
+
+.container {
+  padding: 20px;
+}
+
+.manproduct-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+  gap: 15px;
+}
+
+.manproduct-item {
+  border: 1px solid #ddd;
+  border-radius: 8px;
+  overflow: hidden;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+.manproduct-item:hover {
+  transform: scale(1.05);
+  box-shadow: 0 6px 12px rgba(0, 0, 0, 0.2);
+}
+
+.manproduct-item img {
+  width: 100%;
+  height: auto;
+  display: block;
+}
+
+.manproduct-details {
+  padding: 10px;
+}
+
+.manproduct-details h6 {
+  margin: 5px 0;
+  font-size: 16px;
+  color: #333;
+}
+
+.cart-container {
+  max-width: 1200px;
+  margin: 0 auto;
+  padding: 20px;
+}
+
+h1 {
+  text-align: center;
+  margin-bottom: 20px;
+}
+
+.cart-items {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+}
+
+.cart-item {
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  padding: 20px;
+  margin: 10px;
+  width: 300px;
+  box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+}
+
+.cart-item h2 {
+  margin-top: 0;
+}
+
+.add-to-cart-button {
+  background-color: #28a745;
+  color: white;
+  border: none;
+  padding: 10px 20px;
+  cursor: pointer;
+  border-radius: 5px;
+  transition: background-color 0.3s;
+}
+
+.add-to-cart-button:hover {
+  background-color: #218838;
+}
+
+/* ShoppingBagItem.css */
+
+.container1 {
+  display: flex;
+  align-items: center;
+  border: 1px solid #ccc;
+  padding: 10px;
+  border-radius: 5px;
+  margin: 10px 0;
+}
+
+.imageContainer {
+  flex: 1;
+}
+
+.image {
+  width: 100px;
+  height: auto;
+}
+
+.detailsContainer {
+  flex: 3;
+  padding-left: 10px;
+}
+
+.quantityContainer {
+  flex: 1;
+  display: flex;
+  align-items: center;
+}
+
+.quantityContainer button {
+  width: 30px;
+  height: 30px;
+  background-color: #f0f0f0;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+.quantityContainer span {
+  margin: 0 10px;
+}
+
+.subtotalContainer {
+  flex: 1;
+  text-align: right;
+}
+
+.deleteContainer {
+  flex: 0.5;
+  text-align: right;
+}
+
+.deleteContainer button {
+  background: none;
+  border: none;
+  cursor: pointer;
+  font-size: 1.2em;
+  color: #ff0000;
+}
+.search-container {
+  position: relative;
+}
+
+.search-input {
+  width: 100%;
+  padding: 10px 40px;
+  border-radius: 25px;
+  border: 1px solid #ccc;
+  background-color: rgba(255, 255, 255, 0.9);
+  font-size: 16px;
+  color: #333;
+  outline: none;
+}
+
+.search-icon {
+  position: absolute;
+  top: 50%;
+  left: 10px;
+  transform: translateY(-50%);
+  color: #333;
+}
+
+.search-icon svg {
+  width: 20px;
+  height: 20px;
+}
+/* Loginpage.css */
+
+.login-container {
+  max-width: 400px;
+  margin: auto;
+  padding: 20px;
+  border: 1px solid #ccc;
+  border-radius: 10px;
+  background-color: #f9f9f9;
+}
+
+.login-container h1 {
+  text-align: center;
+  color: #333;
+}
+
+.login-container label {
+  display: block;
+  margin-bottom: 8px;
+  color: #333;
+}
+
+.login-container input[type="text"],
+.login-container input[type="password"] {
+  width: 100%;
+  padding: 8px;
+  margin-bottom: 15px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+}
+
+.login-container input[type="submit"] {
+  width: 100%;
+  padding: 10px;
+  background-color: #4CAF50;
+  color: white;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+}
+
+.login-container input[type="submit"]:hover {
+  background-color: #45a049;
+}
+
+.google-button {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 100%;
+  padding: 10px;
+  margin-top: 10px;
+  background-color: #f9f9f9;
+  color: black;
+  border: 1px solid black;
+  border-radius: 4px;
+  cursor: pointer;
+}
+
+.google-button img {
+  width: 20px;
+  margin-right: 10px;
+}
